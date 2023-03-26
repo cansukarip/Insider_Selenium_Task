@@ -11,6 +11,7 @@
           - test_automation_WebUI.py
         Load_Tests
           - Load_Test_Scenarios.docx
+          - n11.jmx
     
 ## Prerequisites
     Python 3.10.10
@@ -23,10 +24,20 @@
     selenium            4.8.2
     chrome-webdriver    111.0.5563.111
     firefox-webdriver   111.0.1
+    Jmeter              5.5
 
-## Test Scenarios Execution
-Under project folder,
+## Test Execution
 
-    For run all test scenarios : pytest
-    For UI test scenario execution : pytest --log=INFO .\UI_Test_Automation\test_automation_WebUI.py
-    For API test scenario execution : pytest .\API_Test_Automation\test_petStoreApi.py
+###Test Automation
+
+    Run all tests : pytest
+    Run UI tests  : pytest --log=INFO .\UI_Test_Automation\test_automation_WebUI.py
+    Run API tests : pytest .\API_Test_Automation\test_petStoreApi.py
+    
+###Load Tests
+
+Open terminal and run the following commands
+
+    cd ..\apache-jmeter-5.5\bin\
+    jmeter -n -t [..\Load_Tests\n11.jmx] -l [..\Load_Tests\n11_test_results.csv]
+
