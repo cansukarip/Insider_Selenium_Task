@@ -26,6 +26,7 @@
 
 ## Test Scenarios Execution
 Under project folder,
-    - For run all test scenarios : pytest
-    - For UI test scenario execution : pytest --log=INFO .\UI_Test_Automation\test_automation_WebUI.py
-    - For API test scenario execution : pytest .\API_Test_Automation\test_petStoreApi.py
+
+    For run all test scenarios : pytest
+    For UI test scenario execution : pytest --log=INFO .\UI_Test_Automation\test_automation_WebUI.py
+    For API test scenario execution : pytest .\API_Test_Automation\test_petStoreApi.py
