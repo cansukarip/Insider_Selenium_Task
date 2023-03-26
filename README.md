@@ -10,7 +10,7 @@
           - screenshots
           - test_automation_WebUI.py
         Load_Tests
-          - Load_Test_Scenarios.docx
+          - Load_Test_Scenarios.pdf
           - n11.jmx
     
 ## Prerequisites
