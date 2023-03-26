@@ -28,13 +28,13 @@
 
 ## Test Execution
 
-###Test Automation
+### Test Automation
 
     Run all tests : pytest
     Run UI tests  : pytest --log=INFO .\UI_Test_Automation\test_automation_WebUI.py
     Run API tests : pytest .\API_Test_Automation\test_petStoreApi.py
     
-###Load Tests
+### Load Tests
 
 Open terminal and run the following commands
 
